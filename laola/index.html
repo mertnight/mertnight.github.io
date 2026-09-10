@@ -1,0 +1,929 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>劳拉的失忆症 - 剧情解析、人物关系与观影指南</title>
+<meta name="description" content="劳拉的失忆症是一部围绕记忆缺失展开的影视作品，本文整理其剧情脉络、人物关系、失忆设定解析、观看顺序与常见问题，帮助观众快速理解故事核心。">
+<meta name="keywords" content="劳拉的失忆症,劳拉的失忆症剧情,失忆题材影视,剧情解析,人物关系,观影指南">
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Arial, sans-serif;
+  background: #0f1117;
+  color: #dfe3ec;
+  line-height: 1.75;
+  font-size: 16px;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+.wrap {
+  width: 100%;
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+/* ===== 顶部导航 ===== */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: rgba(15, 17, 23, 0.92);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid #232838;
+}
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 64px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 19px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  color: #f3f5fa;
+}
+.logo .mark {
+  width: 30px;
+  height: 30px;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #6d8cff, #a45bff);
+  display: grid;
+  place-items: center;
+  font-size: 15px;
+  color: #fff;
+  font-weight: 800;
+}
+.main-nav {
+  display: flex;
+  gap: 6px;
+}
+.main-nav a {
+  padding: 8px 14px;
+  border-radius: 8px;
+  font-size: 15px;
+  color: #a9b1c6;
+  transition: 0.2s;
+}
+.main-nav a:hover,
+.main-nav a.active {
+  color: #fff;
+  background: #1d2333;
+}
+.nav-toggle {
+  display: none;
+  background: #1d2333;
+  border: 1px solid #2c3448;
+  color: #dfe3ec;
+  border-radius: 8px;
+  padding: 6px 12px;
+  font-size: 15px;
+  cursor: pointer;
+}
+/* ===== 首屏 ===== */
+.hero {
+  position: relative;
+  padding: 68px 0 56px;
+  background:
+    radial-gradient(900px 420px at 18% -10%, rgba(109, 140, 255, 0.22), transparent 65%),
+    radial-gradient(700px 380px at 88% 8%, rgba(164, 91, 255, 0.18), transparent 62%),
+    #0f1117;
+  border-bottom: 1px solid #1e2331;
+}
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1.25fr 0.85fr;
+  gap: 44px;
+  align-items: center;
+}
+.hero .tagline {
+  display: inline-block;
+  font-size: 13px;
+  letter-spacing: 2px;
+  color: #8fa6ff;
+  border: 1px solid #2f3a58;
+  border-radius: 999px;
+  padding: 4px 14px;
+  margin-bottom: 20px;
+}
+.hero h1 {
+  font-size: 40px;
+  line-height: 1.3;
+  color: #f5f7fc;
+  letter-spacing: 1px;
+  margin-bottom: 18px;
+}
+.hero h1 em {
+  font-style: normal;
+  background: linear-gradient(100deg, #7f9bff, #c07dff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.hero p.lead {
+  font-size: 16.5px;
+  color: #aab3c8;
+  max-width: 560px;
+  margin-bottom: 26px;
+}
+.hero-actions {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+.btn {
+  display: inline-block;
+  padding: 11px 24px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  transition: 0.2s;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+.btn-primary {
+  background: linear-gradient(120deg, #5f7dff, #9a5cff);
+  color: #fff;
+}
+.btn-primary:hover {
+  filter: brightness(1.1);
+  transform: translateY(-1px);
+}
+.btn-ghost {
+  border-color: #313a52;
+  color: #c3cadd;
+}
+.btn-ghost:hover {
+  background: #1a2030;
+  color: #fff;
+}
+.hero-card {
+  background: #151a26;
+  border: 1px solid #262d40;
+  border-radius: 16px;
+  padding: 26px;
+  box-shadow: 0 24px 60px -30px rgba(0, 0, 0, 0.9);
+}
+.hero-card h2 {
+  font-size: 17px;
+  color: #eef1f8;
+  margin-bottom: 16px;
+  padding-bottom: 12px;
+  border-bottom: 1px dashed #2a3245;
+}
+.fact-list {
+  list-style: none;
+}
+.fact-list li {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 9px 0;
+  font-size: 14.5px;
+  border-bottom: 1px solid #1e2432;
+}
+.fact-list li:last-child {
+  border-bottom: none;
+}
+.fact-list span:first-child {
+  color: #8b93a8;
+  flex-shrink: 0;
+}
+.fact-list span:last-child {
+  color: #d8dded;
+  text-align: right;
+}
+/* ===== 通用区块 ===== */
+.section {
+  padding: 58px 0;
+  border-bottom: 1px solid #1a1f2c;
+}
+.section-head {
+  margin-bottom: 32px;
+}
+.section-head .kicker {
+  font-size: 13px;
+  letter-spacing: 2px;
+  color: #7f8cff;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+.section-head h2 {
+  font-size: 26px;
+  color: #f2f4fa;
+  letter-spacing: 0.5px;
+}
+.section-head p {
+  margin-top: 10px;
+  color: #98a1b6;
+  font-size: 15px;
+  max-width: 720px;
+}
+/* ===== 剧情脉络 ===== */
+.story-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.story-card {
+  background: #141926;
+  border: 1px solid #232a3b;
+  border-radius: 14px;
+  padding: 24px;
+  transition: 0.25s;
+}
+.story-card:hover {
+  border-color: #3a4a78;
+  transform: translateY(-3px);
+}
+.story-card .num {
+  font-size: 13px;
+  font-weight: 700;
+  color: #6d8cff;
+  letter-spacing: 1px;
+  margin-bottom: 12px;
+}
+.story-card h3 {
+  font-size: 17px;
+  color: #eef1f8;
+  margin-bottom: 10px;
+}
+.story-card p {
+  font-size: 14.5px;
+  color: #9aa3b8;
+}
+/* ===== 人物关系 ===== */
+.chars {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+}
+.char-card {
+  background: linear-gradient(180deg, #171d2b, #131824);
+  border: 1px solid #242b3d;
+  border-radius: 14px;
+  padding: 22px 20px;
+}
+.char-avatar {
+  width: 46px;
+  height: 46px;
+  border-radius: 12px;
+  display: grid;
+  place-items: center;
+  font-weight: 800;
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 14px;
+}
+.char-card h3 {
+  font-size: 16px;
+  color: #eef1f8;
+  margin-bottom: 4px;
+}
+.char-card .role {
+  font-size: 13px;
+  color: #7f8cff;
+  margin-bottom: 10px;
+}
+.char-card p {
+  font-size: 14px;
+  color: #98a1b6;
+}
+/* ===== 设定解析 ===== */
+.theme-block {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 22px;
+}
+.theme-item {
+  background: #141926;
+  border-left: 3px solid #6d8cff;
+  border-radius: 0 12px 12px 0;
+  padding: 22px 24px;
+}
+.theme-item h3 {
+  font-size: 16.5px;
+  color: #eef1f8;
+  margin-bottom: 10px;
+}
+.theme-item p {
+  font-size: 14.5px;
+  color: #9aa3b8;
+}
+/* ===== 观看指南表格 ===== */
+.guide-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #141926;
+  border-radius: 14px;
+  overflow: hidden;
+  font-size: 14.5px;
+}
+.guide-table th,
+.guide-table td {
+  padding: 14px 18px;
+  text-align: left;
+  border-bottom: 1px solid #212838;
+}
+.guide-table th {
+  background: #1a2132;
+  color: #c8cfe2;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+.guide-table td {
+  color: #99a2b7;
+}
+.guide-table tr:last-child td {
+  border-bottom: none;
+}
+.guide-table td:first-child {
+  color: #dfe3ec;
+  font-weight: 600;
+}
+/* ===== FAQ ===== */
+.faq-list {
+  display: grid;
+  gap: 14px;
+}
+.faq-item {
+  background: #141926;
+  border: 1px solid #232a3b;
+  border-radius: 12px;
+  padding: 20px 24px;
+}
+.faq-item h3 {
+  font-size: 16px;
+  color: #eef1f8;
+  margin-bottom: 8px;
+  position: relative;
+  padding-left: 20px;
+}
+.faq-item h3::before {
+  content: "Q";
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 13px;
+  font-weight: 800;
+  color: #6d8cff;
+}
+.faq-item p {
+  font-size: 14.5px;
+  color: #99a2b7;
+  padding-left: 20px;
+}
+/* ===== 侧栏 + 内容布局 ===== */
+.split {
+  display: grid;
+  grid-template-columns: 1.6fr 1fr;
+  gap: 30px;
+}
+.note-box {
+  background: #141926;
+  border: 1px solid #232a3b;
+  border-radius: 14px;
+  padding: 24px;
+}
+.note-box h3 {
+  font-size: 16px;
+  color: #eef1f8;
+  margin-bottom: 14px;
+}
+.note-box ul {
+  list-style: none;
+  display: grid;
+  gap: 12px;
+}
+.note-box li {
+  font-size: 14.5px;
+  color: #99a2b7;
+  padding-left: 18px;
+  position: relative;
+}
+.note-box li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 9px;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #6d8cff;
+}
+/* ===== 页脚 ===== */
+.site-footer {
+  background: #0b0d13;
+  padding: 44px 0 30px;
+  border-top: 1px solid #1a1f2c;
+}
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr 1fr;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+.footer-grid h4 {
+  font-size: 15px;
+  color: #dfe3ec;
+  margin-bottom: 14px;
+}
+.footer-grid p,
+.footer-grid li {
+  font-size: 14px;
+  color: #7d8598;
+}
+.footer-grid ul {
+  list-style: none;
+  display: grid;
+  gap: 9px;
+}
+.footer-grid a:hover {
+  color: #a9b6ff;
+}
+.footer-bottom {
+  border-top: 1px solid #1a1f2c;
+  padding-top: 20px;
+  font-size: 13.5px;
+  color: #666e80;
+  text-align: center;
+}
+/* ===== 响应式 ===== */
+@media (max-width: 960px) {
+  .hero-grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+  .story-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .chars {
+    grid-template-columns: 1fr 1fr;
+  }
+  .theme-block {
+    grid-template-columns: 1fr;
+  }
+  .split {
+    grid-template-columns: 1fr;
+  }
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 680px) {
+  .main-nav {
+    display: none;
+    position: absolute;
+    top: 64px;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    background: #12161f;
+    border-bottom: 1px solid #232838;
+    padding: 10px 16px 16px;
+    gap: 4px;
+  }
+  .main-nav.open {
+    display: flex;
+  }
+  .nav-toggle {
+    display: block;
+  }
+  .hero {
+    padding: 46px 0 40px;
+  }
+  .hero h1 {
+    font-size: 28px;
+  }
+  .story-grid {
+    grid-template-columns: 1fr;
+  }
+  .chars {
+    grid-template-columns: 1fr;
+  }
+  .section {
+    padding: 42px 0;
+  }
+  .section-head h2 {
+    font-size: 22px;
+  }
+  .footer-grid {
+    grid-template-columns: 1fr;
+  }
+  .guide-table th,
+  .guide-table td {
+    padding: 12px 14px;
+    font-size: 13.5px;
+  }
+}
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="logo" href="#top">
+      <span class="mark">L</span>
+      劳拉的失忆症
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-label="展开导航">菜单</button>
+    <nav class="main-nav" id="mainNav">
+      <a href="#story" class="active">剧情脉络</a>
+      <a href="#characters">人物关系</a>
+      <a href="#theme">设定解析</a>
+      <a href="#guide">观看指南</a>
+      <a href="#faq">常见问题</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- 首屏 -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <span class="tagline">失忆题材 · 剧情解析</span>
+        <h1>劳拉的失忆症：<em>当记忆被抹去，她还能相信谁</em></h1>
+        <p class="lead">
+          《劳拉的失忆症》以主角劳拉突发的记忆缺失为起点，把观众带入一个信息不可靠、身份随时可能被推翻的故事空间。
+          本文从剧情结构、人物关系、失忆设定与观看方式四个角度，整理出一条清晰的观影线索，帮助第一次接触该作品的观众快速抓住重点。
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#story">从剧情开始了解</a>
+          <a class="btn btn-ghost" href="#faq">先看常见问题</a>
+        </div>
+      </div>
+      <aside class="hero-card">
+        <h2>作品速览</h2>
+        <ul class="fact-list">
+          <li><span>题材类型</span><span>悬疑 / 心理 / 剧情</span></li>
+          <li><span>核心设定</span><span>阶段性记忆缺失</span></li>
+          <li><span>叙事视角</span><span>主角视角为主</span></li>
+          <li><span>观看难点</span><span>时间线与回忆交错</span></li>
+          <li><span>适合人群</span><span>喜欢推理与人物戏的观众</span></li>
+        </ul>
+      </aside>
+    </div>
+  </section>
+
+  <!-- 剧情脉络 -->
+  <section class="section" id="story">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="kicker">Story</div>
+        <h2>剧情脉络：记忆断裂之后发生了什么</h2>
+        <p>
+          失忆类作品最容易让人困惑的地方，是观众和主角掌握的信息量几乎同步。理解《劳拉的失忆症》，关键是分清「她记得的」「别人告诉她的」和「观众看到的」这三层信息。
+        </p>
+      </div>
+      <div class="story-grid">
+        <article class="story-card">
+          <div class="num">阶段 01</div>
+          <h3>记忆的空白起点</h3>
+          <p>
+            故事从劳拉意识到自己存在记忆缺口开始。她无法完整还原某段时间里发生的事，只能依靠身边的物品、他人的叙述和零散的片段去拼凑。
+            这一阶段的核心不是「发生了什么」，而是「她为什么记不起来」。
+          </p>
+        </article>
+        <article class="story-card">
+          <div class="num">阶段 02</div>
+          <h3>叙述与事实的偏差</h3>
+          <p>
+            随着劳拉向周围人求证，不同角色给出的说法开始出现矛盾。有人出于保护而隐瞒，有人出于私心而改写。
+            观众需要留意每个角色「说这句话的动机」，而不是只记住内容本身。
+          </p>
+        </article>
+        <article class="story-card">
+          <div class="num">阶段 03</div>
+          <h3>碎片回忆的拼接</h3>
+          <p>
+            闪回、梦境与触发式记忆是这类作品的常见手法。劳拉会在特定场景、气味或对话中被唤醒片段，
+            这些片段往往不是按时间顺序出现，需要观众自行排序。
+          </p>
+        </article>
+        <article class="story-card">
+          <div class="num">阶段 04</div>
+          <h3>身份认知的动摇</h3>
+          <p>
+            当记忆不可靠时，劳拉对「自己是谁」的判断也会动摇。她开始怀疑自己的选择、关系乃至过去的行为，
+            剧情由此从外部谜题转向内在冲突。
+          </p>
+        </article>
+        <article class="story-card">
+          <div class="num">阶段 05</div>
+          <h3>真相与代价</h3>
+          <p>
+            接近真相的过程往往伴随着关系的破裂或重建。失忆在这里不只是谜题工具，也是角色重新审视自己人生的契机。
+            结局的重点通常落在「她选择相信什么」，而非单纯的谜底揭晓。
+          </p>
+        </article>
+        <article class="story-card">
+          <div class="num">阶段 06</div>
+          <h3>记忆之外的主题</h3>
+          <p>
+            作品借失忆讨论的是信任、愧疚与自我认同。即使抛开悬疑外壳，劳拉如何面对不完美的过去，
+            依然是故事最有分量的部分。
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 人物关系 -->
+  <section class="section" id="characters">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="kicker">Characters</div>
+        <h2>人物关系：谁在帮她，谁在骗她</h2>
+        <p>
+          在失忆故事里，人物关系就是推理地图。以下按功能梳理常见角色类型，帮助你在观看时快速定位每个人的作用。
+        </p>
+      </div>
+      <div class="chars">
+        <article class="char-card">
+          <div class="char-avatar" style="background:linear-gradient(135deg,#5f7dff,#8f6bff)">劳</div>
+          <h3>劳拉</h3>
+          <div class="role">主角 · 记忆缺失者</div>
+          <p>
+            故事的中心视角。她的判断力随记忆恢复程度变化，观众对她的信任也需要不断调整。
+            她的行动动机通常围绕「找回真相」与「保护现有关系」之间的拉扯。
+          </p>
+        </article>
+        <article class="char-card">
+          <div class="char-avatar" style="background:linear-gradient(135deg,#2fb6a8,#4f8cff)">近</div>
+          <h3>身边最亲近的人</h3>
+          <div class="role">关键关系 · 信息提供者</div>
+          <p>
+            往往是劳拉最先求助的对象，但也是最可能隐瞒真相的人。
+            这类角色的台词需要结合前后情节反复对照，才能判断其立场。
+          </p>
+        </article>
+        <article class="char-card">
+          <div class="char-avatar" style="background:linear-gradient(135deg,#c07dff,#6d5cff)">外</div>
+          <h3>外部调查者</h3>
+          <div class="role">推动者 · 线索来源</div>
+          <p>
+            可能是医生、朋友或相关事件的知情者。他们提供的信息相对客观，但受限于自身视角，
+            未必能还原全貌。
+          </p>
+        </article>
+        <article class="char-card">
+          <div class="char-avatar" style="background:linear-gradient(135deg,#ff8a5c,#e0557a)">对</div>
+          <h3>对立面角色</h3>
+          <div class="role">阻力 · 冲突来源</div>
+          <p>
+            与劳拉的目标直接冲突，或掌握她不愿面对的事实。
+            他们的存在让剧情保持张力，也常常是真相浮出水面的触发点。
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 设定解析 -->
+  <section class="section" id="theme">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="kicker">Setting</div>
+        <h2>失忆设定解析：为什么这类故事好看</h2>
+        <p>
+          失忆是叙事工具，也是心理隐喻。理解它怎么被使用，比记住具体情节更有助于看懂整部作品。
+        </p>
+      </div>
+      <div class="theme-block">
+        <div class="theme-item">
+          <h3>信息不对称的天然悬念</h3>
+          <p>
+            主角不知道的事，观众也未必知道。这种同步感让观众更容易代入，也更容易被反转击中。
+            创作者可以借此控制节奏，在关键节点选择性释放信息。
+          </p>
+        </div>
+        <div class="theme-item">
+          <h3>回忆作为不可靠叙述</h3>
+          <p>
+            回忆片段未必等于事实，可能经过主观美化或扭曲。观众需要把回忆当作「角色的理解」，而不是「事件的真相」。
+          </p>
+        </div>
+        <div class="theme-item">
+          <h3>身份认同的重新建立</h3>
+          <p>
+            当过去无法确认，人只能通过当下的选择来定义自己。这是失忆题材最有情感重量的部分，
+            也是角色成长的主要路径。
+          </p>
+        </div>
+        <div class="theme-item">
+          <h3>关系在压力下的真实面目</h3>
+          <p>
+            记忆消失后，原本稳定的关系会暴露真实结构。谁愿意耐心解释，谁急于回避，
+            都在无形中揭示人物底色。
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 观看指南 -->
+  <section class="section" id="guide">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="kicker">Guide</div>
+        <h2>观看指南：怎么看得更清楚</h2>
+        <p>
+          以下建议适用于大多数失忆悬疑类作品，能有效减少「看到一半就乱掉」的情况。
+        </p>
+      </div>
+      <div class="split">
+        <div>
+          <table class="guide-table">
+            <thead>
+              <tr>
+                <th>观看阶段</th>
+                <th>建议做法</th>
+                <th>注意点</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>开场前</td>
+                <td>先确认作品的基本设定与时长</td>
+                <td>避免提前查阅剧透性解析</td>
+              </tr>
+              <tr>
+                <td>前段</td>
+                <td>记录人物名字与关系</td>
+                <td>此时的信息大多不完整</td>
+              </tr>
+              <tr>
+                <td>中段</td>
+                <td>留意回忆与现实的时间标记</td>
+                <td>区分「谁在讲述」</td>
+              </tr>
+              <tr>
+                <td>后段</td>
+                <td>回看关键对话与细节道具</td>
+                <td>很多伏笔早已埋下</td>
+              </tr>
+              <tr>
+                <td>结束</td>
+                <td>整理自己的理解再对照解析</td>
+                <td>不同解读都可能有依据</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <aside class="note-box">
+          <h3>容易忽略的三个细节</h3>
+          <ul>
+            <li>角色重复出现的口头禅或习惯动作，往往暗示其真实动机。</li>
+            <li>同一场景在不同回忆中的差异，是判断叙述可靠性的重要依据。</li>
+            <li>道具、照片、信件等实物，通常比人物台词更接近事实。</li>
+          </ul>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section" id="faq">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="kicker">FAQ</div>
+        <h2>常见问题</h2>
+        <p>围绕《劳拉的失忆症》观众最常提出的疑问，这里给出相对稳妥的解答思路。</p>
+      </div>
+      <div class="faq-list">
+        <article class="faq-item">
+          <h3>《劳拉的失忆症》讲的是一个什么样的故事？</h3>
+          <p>
+            它属于失忆题材的悬疑剧情作品，核心是主角劳拉在记忆缺失的情况下，逐步寻找真相并重新认识自己的过程。
+            故事同时包含外部谜题与内在情感两条线索。
+          </p>
+        </article>
+        <article class="faq-item">
+          <h3>没有看过同类作品，能直接看吗？</h3>
+          <p>
+            可以。失忆题材并不要求前置知识，只要在观看时留意人物关系和回忆片段的时间顺序，
+            基本不会影响理解。
+          </p>
+        </article>
+        <article class="faq-item">
+          <h3>为什么回忆片段看起来前后矛盾？</h3>
+          <p>
+            这通常是刻意设计。回忆可能来自不同角色的主观视角，也可能受到情绪影响而失真。
+            建议把回忆当作线索而非结论。
+          </p>
+        </article>
+        <article class="faq-item">
+          <h3>需要提前了解结局吗？</h3>
+          <p>
+            不建议。失忆悬疑类作品的观看体验很大程度依赖信息逐步揭开的过程，
+            提前知道结局会明显削弱悬念感。
+          </p>
+        </article>
+        <article class="faq-item">
+          <h3>看完之后还有哪些可以延伸了解的方向？</h3>
+          <p>
+            可以关注失忆题材的常见叙事手法、不可靠叙述者的运用，以及心理创伤与记忆关系的科普内容，
+            这些都有助于更全面地理解作品。
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <h4>关于本站</h4>
+        <p>
+          本站围绕《劳拉的失忆症》整理剧情脉络、人物关系与观看建议，
+          内容以帮助观众理解作品结构为目的，不提供任何影视资源的存储与传播。
+        </p>
+      </div>
+      <div>
+        <h4>内容导航</h4>
+        <ul>
+          <li><a href="#story">剧情脉络</a></li>
+          <li><a href="#characters">人物关系</a></li>
+          <li><a href="#theme">设定解析</a></li>
+          <li><a href="#guide">观看指南</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>阅读提示</h4>
+        <ul>
+          <li>本文含轻度情节说明</li>
+          <li>建议观看后对照阅读</li>
+          <li>不同解读均属正常</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      © 2025 劳拉的失忆症 · 剧情解析与观影指南
+    </div>
+  </div>
+</footer>
+
+<script>
+  (function () {
+    var toggle = document.getElementById('navToggle');
+    var nav = document.getElementById('mainNav');
+    if (toggle && nav) {
+      toggle.addEventListener('click', function () {
+        nav.classList.toggle('open');
+      });
+      nav.addEventListener('click', function (e) {
+        if (e.target.tagName === 'A') {
+          nav.classList.remove('open');
+        }
+      });
+    }
+
+    var links = document.querySelectorAll('.main-nav a');
+    var sections = [];
+    links.forEach(function (link) {
+      var id = link.getAttribute('href');
+      if (id && id.charAt(0) === '#') {
+        var el = document.querySelector(id);
+        if (el) sections.push({ link: link, el: el });
+      }
+    });
+
+    function onScroll() {
+      var pos = window.scrollY + 120;
+      var current = null;
+      sections.forEach(function (item) {
+        if (item.el.offsetTop <= pos) current = item;
+      });
+      if (current) {
+        links.forEach(function (l) { l.classList.remove('active'); });
+        current.link.classList.add('active');
+      }
+    }
+    window.addEventListener('scroll', onScroll, { passive: true });
+    onScroll();
+  })();
+</script>
+
+</body>
+  </html>
